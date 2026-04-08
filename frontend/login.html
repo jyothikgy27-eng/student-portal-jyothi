@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+<a href="admin.html">Admin</a>
+<a href="login.html">Login</a>
+</nav>
+
+<div class="hero">
+<h1>🔐 Login</h1>
+</div>
+
+<div class="card">
+<form onsubmit="return login()">
+<input type="text" id="user" placeholder="Username">
+<input type="password" id="pass" placeholder="Password">
+<button>Login</button>
+</form>
+</div>
+
+<script>
+function login(){
+let u=document.getElementById("user").value;
+let p=document.getElementById("pass").value;
+
+if(u==="admin" && p==="1234"){
+alert("Login successful");
+window.location="admin.html";
+}else{
+alert("Invalid");
+}
+return false;
+}
+</script>
+
+</body>
+</html>
