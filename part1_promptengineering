@@ -1,0 +1,68 @@
+Task
+Build a complete full-stack web application called Student Service Portal. The application must allow students to view information, submit data, and see dynamic updates from the backend.
+
+Frontend Requirements
+
+Use HTML, CSS, and JavaScript (no frameworks required)
+The UI must be clean UI and visually appealing
+The design must follow mobile responsive design principles
+Create exactly 6 different pages
+Home Page (Welcome + overview + navigation)
+Registration Page (student registration form)
+Service Request Page (submit requests or issues)
+Dashboard Page (view submitted data dynamically)
+Announcements Page (display updatesevents)
+ContactAbout Page
+Include navigation bar on all pages
+Use JavaScript to fetch and display backend data dynamically
+
+Backend Requirements
+
+Use Node.js with Express.js
+Backend must handle API requests
+Implement REST API endpoints
+GET → fetch data from database
+POST → add new data
+Use middleware like body-parser or built-in JSON parsing
+Enable CORS for frontend-backend communication
+
+Database Requirement
+
+Use JSON file as database
+Store all student registrations and service requests in the JSON file
+Read and write data using Node.js file system (fs module)
+
+Dynamic Functionality
+
+Form submissions should send data to backend using POST API
+Dashboard page should display real-time data using GET API
+Updates should reflect without manually editing files
+
+Project Structure
+
+Organize code into folders
+frontend → HTML, CSS, JS
+backend → server.js, routes, JSON database
+Maintain clean and readable code structure
+
+Additional Requirements
+
+Use proper comments in code
+Ensure all pages are connected via navigation
+Handle basic errors (e.g., empty form submission)
+Make the UI user-friendly and professional
+
+Output Expected
+
+Complete frontend code for all 6 pages
+Backend server code
+JSON database file
+Working API endpoints (GET and POST)
+Fully functional application that can run locally
+
+Important Instructions (Must Follow)
+
+Use clean UI
+Mobile responsive design
+Use JSON file as database
+Backend must handle API requests
